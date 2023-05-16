@@ -1,0 +1,38 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.super-over-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+.super-over-league-title {
+  color: #f8fafc;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}
